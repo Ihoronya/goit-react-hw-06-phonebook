@@ -1,0 +1,73 @@
+.contacts {
+  color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #2d56e2;
+  border-radius: 5px;
+  margin: 20px;
+  max-width: 350px;
+  padding: 10px;
+  background-color: #98bed5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts h2 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.contacts ul {
+  list-style: none;
+  margin: 5px auto;
+  padding: 0;
+}
+
+.contacts ul li {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contacts ul li p {
+  line-height: 0;
+}
+
+.contacts ul li p span {
+  font-weight: 700;
+}
+
+.contacts ul li button {
+  border: 1px solid #2d56e2;
+  background-color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 0;
+  padding: 0;
+  color: tomato;
+  font-weight: 800;
+}
+
+.contacts ul li button:hover {
+  background-color: tomato;
+  color: whitesmoke;
+}

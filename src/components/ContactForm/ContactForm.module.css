@@ -1,0 +1,61 @@
+.phonebook {
+   color: rgba(0, 0, 0, 0.8);
+   border: 1px solid #2d56e2;
+   border-radius: 5px;
+   margin: 20px;
+   max-width: 350px;
+   padding: 10px;
+   background-color: #98bed5;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.phonebook h2 {
+   margin: 10px 0;
+   text-align: center;
+}
+
+.phonebook form {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+}
+
+.phonebook form label {
+   font-weight: 700;
+}
+
+.phonebook form input {
+   margin: 5px 0;
+   border: 1px solid #2d56e2;
+   border-radius: 4px;
+   height: 30px;
+   padding-left: 10px;
+}
+
+.phonebook form input:hover {
+   -webkit-box-shadow: 2px 2px 2px rgba(24, 13, 240, 0.7);
+   box-shadow: 2px 2px 2px rgba(24, 13, 240, 0.7);
+}
+
+.phonebook form button {
+   width: 200px;
+   margin: 0 auto;
+   margin-top: 20px;
+   height: 30px;
+   border: 1px solid #2d56e2;
+   border-radius: 4px;
+   background-color: white;
+}
+
+.phonebook form button:hover {
+   background-color: tomato;
+   color: whitesmoke;
+}
